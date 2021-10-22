@@ -6,11 +6,11 @@ var main = {
         });
 
         $('#btn-update').on('click', function(){
-                    _this.update();
+            _this.update();
         });
 
         $('#btn-delete').on('click', function(){
-                    _this.delete();
+            _this.delete();
         });
 
 
