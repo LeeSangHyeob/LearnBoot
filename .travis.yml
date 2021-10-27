@@ -19,7 +19,7 @@ script: "./gradlew clean build"
 before_deploy:
     - zip -r LearnBoot *
     - mkdir -p deploy
-    - mv springboot.zip deploy/springboot.zip
+    - mv LearnBoot.zip deploy/LearnBoot.zip
 
 deploy:
 - provider: s3
