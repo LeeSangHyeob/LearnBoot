@@ -40,7 +40,7 @@ deploy:
   access_key_id: $AWS_ACCESS_KEY #Travis repo settings에 설정된 값
   secret_access_key: $AWS_SECRET_KEY
   bucket: springboot0808
-  key: LearnBoot.zip
+  key: before-deploy.zip
   bundle_type: zip
   application: springboot
   deployment_group: springboot
